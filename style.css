@@ -1,0 +1,7 @@
+html {
+    min-height: 100%;
+    background-image: url(Images/at_mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
