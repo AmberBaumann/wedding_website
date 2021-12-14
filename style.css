@@ -1,7 +1,27 @@
-html {
-    min-height: 100%;
-    background-image: url(Images/at_mountain.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+
+/* Navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #a3b899;
+position: fixed;
+top: 0;
+width: 100%;
 }
+
+/* Navigation bar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #000034;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* When hovering over link, background and text color change */
+.topnav a:hover {
+    background: #000034;
+    color: #a3b899;
+}
+
