@@ -1,4 +1,3 @@
-
 /* Navigation bar */
 .topnav {
 overflow: hidden;
@@ -23,5 +22,11 @@ width: 100%;
 .topnav a:hover {
     background: #000034;
     color: #a3b899;
+}
+
+/* Home page image styling */
+img{
+    max-width: 30%;
+    height: auto;
 }
 
