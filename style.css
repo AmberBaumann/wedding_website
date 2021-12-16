@@ -5,6 +5,8 @@ background-color: #a3b899;
 position: fixed;
 top: 0;
 width: 100%;
+display: flex;
+justify-content: space-around;
 }
 
 /* Navigation bar links */
@@ -30,5 +32,16 @@ img{
     height: auto;
 }
 
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+}
 
+p{
+    color: #000034;
+    font-size: 3em;
+}
 
