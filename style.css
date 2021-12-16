@@ -2,8 +2,7 @@
 .topnav {
 overflow: hidden;
 background-color: #a3b899;
-position: fixed;
-top: 0;
+position: sticky;
 width: 100%;
 display: flex;
 justify-content: space-around;
@@ -26,24 +25,27 @@ justify-content: space-around;
     color: #a3b899;
 }
 
+body{
+    background-color: #dde6d5;
+}
+
 /* Home page image styling */
 img{
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    padding: 16px;
+    border-color: #000034;
+    border-style: double;
 }
 
-body{
-    height: 100%;
-}
-
-div{
+section{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    top: 50px;
 }
 
 p{
